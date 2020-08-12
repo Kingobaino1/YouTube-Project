@@ -63,3 +63,65 @@ aside {
     display: flexbox;
     margin-left: 0px;
 }
+
+.main{
+    padding: 15px;
+}
+
+.video{
+    margin-left: 0;
+    width: 65%;
+    display: inline-block;
+    left: 0;
+    vertical-align: top;
+}
+
+.video-name{
+
+}
+
+.channel-icon{
+    display: inline-block;
+}
+
+.channel-name{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.subscribe{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+.date{
+    display: inline-block;
+}
+
+.description{
+    display: inline-block;
+}
+
+.side-bar{
+    display: inline-block;
+    right: 0;
+    width: 30%;
+    border: 1px solid gray;
+}
+.side-bar img{
+    display: inline-block;
+    margin: 5px;
+}
+.side-bar h3 {
+    display: inline-block;
+    width: 200px;
+    font-size: 15px;
+    vertical-align: top;
+}
+.side-bar small{
+    display: inline-block;
+    width: 200px;
+    top: 0;
+
+}
