@@ -1,7 +1,65 @@
 .container{
     background-color: white;
+    border: 0.5px solid gray;
 }
-
-.nav{
-
+li {
+    display: inline-block;
+}
+.menu-icon {
+    height: auto;
+    width: 15px;
+    vertical-align: middle;
+}
+.logo {
+    height: auto;
+    width: 35px;
+    vertical-align: middle;
+    margin-left: 10px;
+  
+}
+.logo-footer {
+    height: auto;
+    width: 35px;
+  
+}
+.search-icon {
+    height: auto;
+    width: 15px;
+    vertical-align: middle;
+    margin-right: 50px;
+    border: 2px solid gray;
+    padding: 7px;
+}
+.upload-icon {
+    height: auto;
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 50px;
+    
+}
+.sign-in {
+   text-decoration-color: white;
+   background-color: blue;
+   height: 25px;
+   border-radius: 5px;
+}
+.youtube {
+   vertical-align: middle;
+}
+.search {
+    width: 700px;
+    height: 30px;
+}
+.nav-right {
+    display: inline-block;
+}
+.nav-mid {
+    display: inline-block;
+}
+.nav-left {
+    display: inline-block;
+}
+aside {
+    display: flexbox;
+    margin-left: 0px;
 }
