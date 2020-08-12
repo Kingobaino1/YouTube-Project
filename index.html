@@ -9,25 +9,25 @@
 <body>
     <section class="container">
     <header class="nav">
-        <img src="images/menu-icon.png"/>
-        <img src="images/icon.png" />
-        <h2>YouTube</h2>
-        <input type="search" placeholder="Search">
-        <img src="images/search-icon.png">
-        <img src="images/upload-icon.PNG">
-        <button type="button">Sign in</button>
+        <img class="menu-icon" src="images/menu-icon.png"/>
+        <img class="logo" src="images/icon.png" />
+        <h2 class="youtube">YouTube</h2>
+        <input class="search" type="search" placeholder="Search">
+        <img class="search-icon" src="images/search-icon.png">
+        <img class="upload-icon" src="images/upload-icon.PNG">
+        <button class="sign-in" type="button">Sign in</button>
     </header>
     <main class="main">
         <section class="video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h1>Contributing to Open Source Part I: The Easy Way</h1>
-            <img src="images/channel-icon.jpeg">
-            <h5>The Odin Project</h5>
-            <button type="button">Subscribe</button>
+            <h1 class="video-name">Contributing to Open Source Part I: The Easy Way</h1>
+            <img class="channel-icon" src="images/channel-icon.jpeg">
+            <h5 class="channel-name">The Odin Project</h5>
+            <button class="subscribe" type="button">Subscribe</button>
             <br>
-            <p>
-                Published on Feb 27, 2014
-                <br>
+
+            <h4 class="date">Published on Feb 27, 2014</h4>
+            <p class="description">
                 How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.
             </p>
         </section>
@@ -162,8 +162,8 @@
         </section>
 
         <footer class="foot">
-            <img src="images/icon.png" />
-            <h2>YouTube</h2>
+            <img class="logo-footer" src="images/icon.png" />
+            <h2 class="youtube-footer">YouTube</h2>
             <label >Languages</label>
             <select>
                 <option value="english">English</option>
@@ -184,8 +184,8 @@
                 <option value="on">On</option>
                 <option value="off">Off</option>
             </select>
-            <button type="button">History</button>
-            <button type="button">Help</button>
+            <button class="history" type="button">History</button>
+            <button class="help" type="button">Help</button>
             
             <h5>About</h5>
             <h5>Press</h5>
@@ -194,11 +194,13 @@
             <h5>Advertise</h5>
             <h5>Developers</h5>
 
-
-            <p>Terms</p>
-            <p>Privacy</p>
-            <p>Policy & Safety</p>
-            <p>Test new features</p>
+            <div class="bottom">
+                <p>Terms</p>
+                <p>Privacy</p>
+                <p>Policy & Safety</p>
+                <p>Test new features</p>
+            </div>
+            
 
         </footer>
     </main>
