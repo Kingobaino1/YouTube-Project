@@ -82,19 +82,17 @@ aside {
 
 .channel-icon{
     display: inline-block;
-}
-
-.channel-name{
-    display: inline-block;
     vertical-align: top;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-.subscribe{
+.channel-details {
     display: inline-block;
-    vertical-align: top;
-    margin-right: 30px;
+    vertical-align: text-bottom;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-
 .date{
     display: inline-block;
 }
