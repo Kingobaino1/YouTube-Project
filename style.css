@@ -17,7 +17,7 @@ li {
     height: auto;
     width: 35px;
     vertical-align: middle;
-    margin-left: 10px;
+    padding-left: 10px;
   
 }
 .logo-footer {
@@ -37,7 +37,7 @@ li {
     height: auto;
     width: 50px;
     vertical-align: middle;
-    margin-right: 50px;
+    padding-right: 50px;
     
 }
 .sign-in {
