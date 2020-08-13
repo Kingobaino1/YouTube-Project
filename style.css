@@ -1,3 +1,6 @@
+body{
+    font-family: Roboto, Arial, sans-serif;
+}
 .container{
     background-color: white;
     border: 0.5px solid gray;
@@ -74,14 +77,9 @@ aside {
     display: inline-block;
     left: 0;
     vertical-align: top;
+    margin-right: 10px;
 }
-.subscribe {
-    width: 100px;
-    margin-left: -110px;
-}
-.channel-details h5 {
-    vertical-align: text-bottom;
-}
+
 
 .channel-icon {
     display: inline-block;
@@ -92,9 +90,27 @@ aside {
 
 .channel-details {
     display: inline-block;
-    vertical-align: text-top;
+  
     margin-top: 0px;
     margin-bottom: 0px;
+    list-style: none;
+}
+
+.subscribe {
+    width: 80px;
+    vertical-align: top;
+    margin-left: -100px;
+    display: inline-block;
+    padding-top: 0px;
+
+
+}
+.channel-name {
+    horizental-align: text-top;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-top: 0px;
+    margin-left: -40px
 }
 
 .social-media-icons {
@@ -120,6 +136,8 @@ aside {
 
 .description {
     display: inline-block;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .side-bar {
@@ -132,18 +150,19 @@ aside {
     display: inline-block;
     margin: 5px;
 }
-.side-bar h3 {
+.side-bar p {
     display: inline-block;
     width: 200px;
     font-size: 15px;
     vertical-align: top;
+    margin-top: 2px;
 }
-.side-bar small {
-    display: inline-block;
-    width: 200px;
-    top: 0;
+.text-font{
+    margin-top: 5px;
+    color: gray;
+}
 
-}
+
 
 .foot select {
     margin-right: 20px;
