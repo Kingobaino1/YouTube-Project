@@ -76,9 +76,6 @@ aside {
     vertical-align: top;
 }
 
-.video-name{
-
-}
 
 .channel-icon{
     display: inline-block;
@@ -93,6 +90,28 @@ aside {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+.social-media-icons{
+    display: flex;
+    margin-left: -90px;
+    list-style: none;
+    justify-content: space-around;
+
+}
+.share{
+    width:75%;
+
+}
+
+.like{
+    
+}
+
+i{
+
+}
+
+
 .date{
     display: inline-block;
 }
@@ -122,4 +141,19 @@ aside {
     width: 200px;
     top: 0;
 
+}
+
+.foot{
+    display:inline-block;
+}
+
+.footleft{
+    display:inline-block;
+}
+.foot-mid{
+    display:inline-block;
+}
+
+.foot-right{
+    display:inline-block;
 }
