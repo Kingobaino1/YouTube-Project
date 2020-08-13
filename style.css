@@ -64,20 +64,26 @@ aside {
     margin-left: 0px;
 }
 
-.main{
+.main {
     padding: 15px;
 }
 
-.video{
+.video {
     margin-left: 0;
     width: 65%;
     display: inline-block;
     left: 0;
     vertical-align: top;
 }
+.subscribe {
+    width: 100px;
+    margin-left: -110px;
+}
+.channel-details h5 {
+    vertical-align: text-bottom;
+}
 
-
-.channel-icon{
+.channel-icon {
     display: inline-block;
     vertical-align: top;
     margin-top: 0px;
@@ -86,47 +92,43 @@ aside {
 
 .channel-details {
     display: inline-block;
-    vertical-align: text-bottom;
+    vertical-align: text-top;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-.social-media-icons{
+.social-media-icons {
     display: flex;
     margin-left: -90px;
     list-style: none;
     justify-content: space-around;
 
 }
-.share{
+.social-media-icons i {
+    margin-right: 20px;
+    color: gray;
+ 
+}
+.share { 
     width:75%;
 
 }
 
-.like{
-    
-}
-
-i{
-
-}
-
-
-.date{
+.date {
     display: inline-block;
 }
 
-.description{
+.description {
     display: inline-block;
 }
 
-.side-bar{
+.side-bar {
     display: inline-block;
     right: 0;
     width: 30%;
     border: 1px solid gray;
 }
-.side-bar img{
+.side-bar img {
     display: inline-block;
     margin: 5px;
 }
@@ -136,24 +138,43 @@ i{
     font-size: 15px;
     vertical-align: top;
 }
-.side-bar small{
+.side-bar small {
     display: inline-block;
     width: 200px;
     top: 0;
 
 }
 
-.foot{
-    display:inline-block;
+.foot select {
+    margin-right: 20px;
+
 }
 
 .footleft{
     display:inline-block;
+   
 }
 .foot-mid{
     display:inline-block;
+   
 }
 
-.foot-right{
+.foot-right {
     display:inline-block;
+    padding: 8px;
+}
+.foot-right button {
+    margin-right: 20px;
+}
+select {
+    padding: 5px;
+}
+.foot-bottom-1 li {
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+.foot-bottom-2 li {
+    margin-right: 10px;
+
 }
