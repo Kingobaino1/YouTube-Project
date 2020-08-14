@@ -79,6 +79,10 @@ aside {
     vertical-align: top;
     margin-right: 10px;
 }
+video {
+    width: 820px;
+    height: 520; 
+}
 
 
 .channel-icon {
