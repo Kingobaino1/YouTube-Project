@@ -102,11 +102,8 @@ aside {
     margin-left: -100px;
     display: inline-block;
     padding-top: 0px;
-
-
 }
 .channel-name {
-    horizental-align: text-top;
     display: inline-block;
     vertical-align: text-bottom;
     margin-top: 0px;
@@ -162,8 +159,6 @@ aside {
     color: gray;
 }
 
-
-
 .foot select {
     margin-right: 20px;
 
@@ -195,5 +190,4 @@ select {
 }
 .foot-bottom-2 li {
     margin-right: 10px;
-
 }
