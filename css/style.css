@@ -108,6 +108,7 @@ video {
 iframe{
     width: 820px;
     height: 520px;
+    border: 0px;
 }
 
 
@@ -142,7 +143,7 @@ iframe{
 
 .social-media-icons {
     display: flex;
-    margin-left: -90px;
+    margin-left: -40px;
     list-style: none;
     justify-content: space-around;
 
