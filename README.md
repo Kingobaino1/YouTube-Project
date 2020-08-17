@@ -4,7 +4,7 @@
 
 > This is our first Microverse project where we have to clone a YouTube video viewing page.
 
-![screenshot](./Project-Screenshot.png)
+![screenshot](./Screenshot.png)
 
 This is a youtube video player homepage. It has as a navigation bar. In the main section there is a video section and sidebar. It also has a footer.
 

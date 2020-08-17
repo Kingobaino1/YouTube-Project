@@ -7,6 +7,9 @@ li {
 .d-flex{
     display:flex;
 }
+.d-block{
+    display: inline-block;
+}
 .container{
     background-color: white;
     margin:0px;
@@ -158,9 +161,6 @@ iframe{
 
 }
 
-.date {
-    display: inline-block;
-}
 
 .description {
     display: inline-block;
@@ -195,17 +195,10 @@ iframe{
 
 }
 
-.footleft{
-    display:inline-block;
-   
-}
-.foot-mid{
-    display:inline-block;
-   
-}
+
+
 
 .foot-right {
-    display:inline-block;
     padding: 8px;
 }
 .foot-right button {
