@@ -6,31 +6,44 @@
     <title>YouTube</title>
     <link href="css/style.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <script src="https://kit.fontawesome.com/b77bd6f2e2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="container">
     <header class="nav">
-        <ul class="nav-right">
-            <li><img class="menu-icon" src="images/menu-icon.png"/></li>
-            <li><img class="logo" src="images/icon.png" /></li>
-            <li><h2 class="youtube">YouTube</h2></li>
-        </ul>
-        
-        <ul class="nav-mid"></ul>
-            <li><input class="search" type="search" placeholder="Search"></li>
-            <li><img class="search-icon" src="images/search-icon.png"></li>
-        </ul>
+        <div class="nav-left">
+            <div class="menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div >
+                <img class="logo" src="images/YoutubeLogo.png" alt="YouTube">
+            </div>
+            
 
-        <ul class="nav-right">
-            <li><img class="upload-icon" src="images/upload-icon.PNG"></li>
-            <li><button class="sign-in" type="button">Sign in</button></li>
-        </ul>
+        </div>
+        
+        <div class="nav-mid">
+            <div >
+                
+                <input class="search" type="search" placeholder="Search">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            
+        </div>
+
+        <div class="nav-right">
+            <div>
+                <i class="fa fa-upload"></i>
+            </div>
+            <div>
+                <button class="sign-in" type="button">Sign in</button>
+            </div>
+        </div>
 
     </header>
     <main class="main">
         <section class="video">
-            <iframe width="820" height="520" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe  src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <h1 class="video-name">Contributing to Open Source Part I: The Easy Way</h1>
             
             <img class="channel-icon" src="images/channel-icon.jpeg">
