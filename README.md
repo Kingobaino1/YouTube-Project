@@ -27,15 +27,15 @@ This is a youtube video player homepage. It has as a navigation bar. In the main
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/Kingobaino1)
-- Twitter: [@twitterhandle](https://twitter.com/ibehkingso)
-- Linkedin: [linkedin](https://www.linkedin.com/in/ibeh-kingsley-obinna-568596177)
+- Github: [@Kingobaino1](https://github.com/Kingobaino1)
+- Twitter: [@ibehkingso](https://twitter.com/ibehkingso)
+- Linkedin: [Kingsley](https://www.linkedin.com/in/ibeh-kingsley-obinna-568596177)
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/abmasadullah)
-- Twitter: [@twitterhandle](https://twitter.com/abmasadullah)
-- Linkedin: [linkedin](https://www.linkedin.com/in/abmasadullah)
+- Github: [@abmasadullah](https://github.com/abmasadullah)
+- Twitter: [@abmasadullah](https://twitter.com/abmasadullah)
+- Linkedin: [abmasadullah](https://www.linkedin.com/in/abmasadullah)
 
 ## 🤝 Contributing
 
