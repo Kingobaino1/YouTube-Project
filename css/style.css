@@ -1,0 +1,199 @@
+body{
+    font-family: Roboto, Arial, sans-serif;
+}
+li, .d-block {
+    display: inline-block;
+}
+.d-flex{
+    display:flex;
+}
+.container{
+    background-color: white;
+    margin:0px;
+    padding:0px;
+}
+.nav{
+    display: flex;
+    margin:15px;
+    justify-content: space-between;
+}
+
+
+.menu {
+    color: gray;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-top: 6px;
+
+}
+
+
+.logo{
+font-size:100%;
+display:inline-block;
+width:100px;
+height:30px;
+
+background-color: transparent; 
+background-size:100px 30px;
+background-repeat: no-repeat; 
+border-width: 0px;
+ border-style: none; 
+ margin: 0px; 
+ padding: 0px; 
+ border-color: white;
+}
+
+
+.search {
+    width: 800px;
+    height: 30px;
+    
+}
+
+
+.fa-search{
+    padding: 6px 10px 6px 10px;
+}
+.nav-mid button{
+    margin-left: -8px;
+}
+
+
+
+.nav-right img{
+    padding-left: 15px;
+}
+
+
+
+aside {
+    display: flexbox;
+    margin-left: 0px;
+}
+
+.main {
+    padding: 15px;
+}
+
+.video {
+    width: 65%;
+    display: inline-block;
+    left: 0;
+    vertical-align: top;
+
+}
+video {
+    width: 820px;
+    height: 520; 
+}
+
+iframe{
+    width: 820px;
+    height: 520px;
+    border: 0px;
+}
+
+
+.channel-icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.channel-details {
+    display: inline-block;
+  
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+.subscribe {
+    width: 80px;
+    vertical-align: top;
+    margin-left: -100px;
+    display: inline-block;
+    padding-top: 0px;
+}
+.channel-name {
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-top: 0px;
+    margin-left: -40px
+}
+
+.social-media-icons {
+    display: flex;
+    margin-left: -40px;
+    list-style: none;
+    justify-content: space-around;
+
+}
+.social-media-icons i {
+    margin-right: 20px;
+    color: gray;
+ 
+}
+.share { 
+    width:75%;
+
+}
+
+
+.description {
+    display: inline-block;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.side-bar {
+    display: inline-block;
+    right: 0;
+    width: 30%;
+
+}
+.side-bar img {
+    display: inline-block;
+    margin: 5px;
+}
+.side-bar p {
+    display: inline-block;
+    width: 200px;
+    font-size: 15px;
+    vertical-align: top;
+    margin-top: 2px;
+}
+.text-font{
+    margin-top: 5px;
+    color: gray;
+}
+
+.foot select {
+    margin-right: 20px;
+
+}
+
+.foot-right {
+    padding: 8px;
+}
+.foot-right button {
+    margin-right: 20px;
+}
+select {
+    padding: 5px;
+}
+.foot-bottom-1 li {
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+.foot-bottom-2 li {
+    margin-right: 10px;
+}
+
+.logo-footer {
+    height: auto;
+    width: 35px;
+}

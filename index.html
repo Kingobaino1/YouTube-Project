@@ -4,180 +4,241 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube</title>
-    <link href="style.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/b77bd6f2e2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section class="container">
-    <header class="nav">
-        <ul class="nav-right">
-            <li><img class="menu-icon" src="images/menu-icon.png"/></li>
-            <li><img class="logo" src="images/icon.png" /></li>
-            <li><h2 class="youtube">YouTube</h2></li>
-        </ul>
+    <div class="container">
+        <nav class="nav">
+        <div class="nav-left d-flex">
+            <div class="menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div >
+                <img class="logo" src="images/YoutubeLogo.png" alt="YouTube">
+            </div>
+            
+
+        </div>
         
-        <ul class="nav-mid"></ul>
-            <li><input class="search" type="search" placeholder="Search"></li>
-            <li><img class="search-icon" src="images/search-icon.png"></li>
-        </ul>
+        <div class="nav-mid d-flex">
+            <div >
+                
+                <input class="search" type="search" placeholder="Search">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            
+        </div>
 
-        <ul class="nav-right">
-            <li><img class="upload-icon" src="images/upload-icon.PNG"></li>
-            <li><button class="sign-in" type="button">Sign in</button></li>
-        </ul>
+        <div class="nav-right d-flex">
+            <div>
+                <img src="images/camera.svg" alt="Camera">
+                
+            </div>
+            <div>
+                <img src="images/notification.svg" alt="Notification">
+            </div>
 
-    </header>
-    <main class="main">
-        <section class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h1 class="video-name">Contributing to Open Source Part I: The Easy Way</h1>
-            <img class="channel-icon" src="images/channel-icon.jpeg">
-            <h5 class="channel-name">The Odin Project</h5>
-            <button class="subscribe" type="button">Subscribe</button>
+            <div>
+                <img src="images/user.svg" alt="User">
+            </div>
+
+        </div>
+
+         </nav>
+        <section class="main">
+        <div class="video">
+            <iframe  src="https://www.youtube.com/embed/V74l_zS1x8E"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3 class="video-name">Contributing to Open Source Part I: The Easy Way</h3>
+            
+            <img class="channel-icon" src="images/channel-icon.jpeg" alt="Channel Icon">
+            <ul class="channel-details">
+                <li> <h5 class="channel-name">The Odin Project</h5> </li>
+                <li><img class="subscribe" src="images/subscribe-button01.png" alt="Sub"></li>
+                
+            </ul>
+            <hr>
+            <div class="social-media-icons">
+                <ul class="share">
+                    <li><i class="fa fa-plus close"> Add to</i></li>
+                    <li><i class="fa fa-mail-forward"> Share</i></li>
+                    <li> <i class="fa fa-ellipsis-h"> More</i></li>
+                </ul>
+
+                <ul class="like">
+                    <li><i class="fa fa-thumbs-up"> 359</i></li>
+                    <li><i class="fa fa-thumbs-down"> 14</i></li>
+                </ul>
+                
+            </div>
+            <hr>
             <br>
 
-            <h4 class="date">Published on Feb 27, 2014</h4>
+            <h4 class="date d-block">Published on Feb 27, 2014</h4>
             <p class="description">
                 How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.
             </p>
-        </section>
+        </div>
 
-        <section class="side-bar">
+        <div class="side-bar">
             <aside>
-                <img src="images/side-image-01.jpg">
-                <h3>Contributing to Open Source Part II: The Real Way</h3>
-                <small>The Odin Project</small>
-                <small>29,985 views</small>
+                <img src="images/side-image-01.jpg" alt="Side Images">
+                <p>Contributing to Open Source Part II: The Real Way<br>
+                    <span class="text-font">The Odin Project<br>
+                    29,985 views</span>
+                <p>
+                
             </aside>
             
             <aside>
-                <img src="images/side-image-02.jpg">
-                <h3>'How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' by</h3>
-                <small>imtiana</small>
-                <small>929,985 views</small>
+                <img src="images/side-image-02.jpg" alt="Side Images">
+                <p>How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' by<br>
+                    <span class="text-font">imtiana<br>
+                    929,985 views</span>
+                <p>
             </aside>
 
             <aside>
-                <img src="images/side-image-03.jpg">
-                <h3>Programming in Visual Basic .Net How to Connect Access Database to</h3>
-                <small>iBasskung</small>
-                <small>16,129,985 views</small>
+                <img src="images/side-image-03.jpg" alt="Side Images">
+                <p>Programming in Visual Basic .Net How to Connect Access Database to<br>
+                    <span class="text-font">iBasskung<br>
+                    16,129,985 views</span>
+                <p>
             </aside>
 
             <aside>
-                <img src="images/side-image-04.jpg">
-                <h3>REST API concepts and examplesy</h3>
-                <small>WebConcepts</small>
-                <small>3,529,985 views</small>
+                <img src="images/side-image-04.jpg" alt="Side Images">
+                <p>REST API concepts and examplesy<br>
+                    <span class="text-font">WebConcepts<br>
+                    3,529,985 views</span>
+                <p>
             </aside>
 
             <aside>
-                <img src="images/side-image-05.jpg">
-                <h3>GitHub - Why Microsoft Paid $7.5B for the Future of Software! - A Case</h3>
-                <small>Valuetainment</small>
-                <small>444,985 views</small>
+                <img src="images/side-image-05.jpg" alt="Side Images">
+                <p>GitHub - Why Microsoft Paid $7.5B for the Future of Software! - A Case<br>
+                    <span class="text-font">Valuetainment<br>
+                    444,985 views</span>
+                <p>
             </aside>
 
             <aside>
-                <img src="images/side-image-06.jpg">
-                <h3>How to create a 3D Terrain with Google Maps and height maps in Photoshop</h3>
-                <small>Orange Box Ceo</small>
-                <small>29,296 views</small>
+                <img src="images/side-image-06.jpg" alt="Side Images">
+                <p>How to create a 3D Terrain with Google Maps and height maps in Photoshop<br>
+                    <span class="text-font">Orange Box Ceo<br>
+                    29,985 views </span>
+                <p>
             </aside>
 
             <aside>
-                <img src="images/side-image-07.jpg">
-                <h3>How to create a 3D Terrain with Google Maps and height maps in Photoshop</h3>
-                <small>deeplizard</small>
-                <small>329,285 views</small>
+                <img src="images/side-image-07.jpg" alt="Side Images">
+                <p>How to create a 3D Terrain with Google Maps and height maps in Photoshop<br>
+                    <span class="text-font">deeplizard<br>
+                    329,285 views </span>
+                <p>
             </aside>
 
             <aside>
-                <img src="images/side-image-08.jpg">
-                <h3>Top 10 Linux Job Interview Questions</h3>
-                <small>Computerphile</small>
-                <small>2,129,277 views</small>
+                <img src="images/side-image-08.jpg" alt="Side Images">
+                <p>Top 10 Linux Job Interview Question<br>
+                    <span class="text-font">Computerphile<br>
+                        2,129,277 views </span>
+                <p>
             </aside>
 
             <aside>
-                <img src="images/side-image-09.jpg">
-                <h3>Running an SQL Injection Attack - Computerphile</h3>
-                <small>Computererphile</small>
-                <small>2,217,477 views</small>
+                <img src="images/side-image-09.jpg" alt="Side Images">
+                <p>Running an SQL Injection Attack - Computerphile<br>
+                    <span class="text-font">Computererphile<br>
+                    2,029,985 views </span>
+                <p>
             </aside>
 
             <aside>
-                <img src="images/side-image-01.jpg">
-                <h3>Contributing to Open Source Part II: The Real Way</h3>
-                <small>The Odin Project</small>
-                <small>29,985 views</small>
+                <img src="images/side-image-01.jpg" alt="Side Images">
+                <p>Contributing to Open Source Part II: The Real Way<br>
+                    <span class="text-font">The Odin Project<br>
+                    29,985 views </span>
+                <p>
+                
             </aside>
             
             <aside>
-                <img src="images/side-image-02.jpg">
-                <h3>'How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' by</h3>
-                <small>imtiana</small>
-                <small>929,985 views</small>
+                <img src="images/side-image-02.jpg" alt="Side Images">
+                <p>'How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft' by<br>
+                    <span class="text-font">imtiana<br>
+                    929,985 views </span>
+                <p>
             </aside>
 
             <aside>
-                <img src="images/side-image-03.jpg">
-                <h3>Programming in Visual Basic .Net How to Connect Access Database to</h3>
-                <small>iBasskung</small>
-                <small>16,129,985 views</small>
+                <img src="images/side-image-03.jpg" alt="Side Images">
+                <p>Programming in Visual Basic .Net How to Connect Access Database to<br>
+                    <span class="text-font">iBasskung<br>
+                    16,129,985 views</span>
+                <p>
             </aside>
 
             <aside>
-                <img src="images/side-image-04.jpg">
-                <h3>REST API concepts and examplesy</h3>
-                <small>WebConcepts</small>
-                <small>3,529,985 views</small>
+                <img src="images/side-image-04.jpg" alt="Side Images">
+                <p>REST API concepts and examplesy<br>
+                    <span class="text-font">WebConcepts<br>
+                    3,529,985 views</span>
+                <p>
             </aside>
 
             <aside>
-                <img src="images/side-image-05.jpg">
-                <h3>GitHub - Why Microsoft Paid $7.5B for the Future of Software! - A Case</h3>
-                <small>Valuetainment</small>
-                <small>444,985 views</small>
+                <img src="images/side-image-05.jpg" alt="Side Images">
+                <p>GitHub - Why Microsoft Paid $7.5B for the Future of Software! - A Case<br>
+                    <span class="text-font">Valuetainment<br>
+                    444,985 views</span>
+                <p>
             </aside>
 
             <aside>
-                <img src="images/side-image-06.jpg">
-                <h3>How to create a 3D Terrain with Google Maps and height maps in Photoshop</h3>
-                <small>Orange Box Ceo</small>
-                <small>29,296 views</small>
+                <img src="images/side-image-06.jpg" alt="Side Images">
+                <p>How to create a 3D Terrain with Google Maps and height maps in Photoshop<br>
+                    <span class="text-font">Orange Box Ceo<br>
+                    29,985 views </span>
+                <p>
             </aside>
 
             <aside>
-                <img src="images/side-image-07.jpg">
-                <h3>How to create a 3D Terrain with Google Maps and height maps in Photoshop</h3>
-                <small>deeplizard</small>
-                <small>329,285 views</small>
+                <img src="images/side-image-07.jpg" alt="Side Images">
+                <p>How to create a 3D Terrain with Google Maps and height maps in Photoshop<br>
+                    <span class="text-font">deeplizard<br>
+                    329,285 views </span>
+                <p>
             </aside>
 
             <aside>
-                <img src="images/side-image-08.jpg">
-                <h3>Top 10 Linux Job Interview Questions</h3>
-                <small>Computerphile</small>
-                <small>2,129,277 views</small>
+                <img src="images/side-image-08.jpg" alt="Side Images">
+                <p>Top 10 Linux Job Interview Question<br>
+                    <span class="text-font">Computerphile<br>
+                        2,129,277 views </span>
+                <p>
             </aside>
 
             <aside>
-                <img src="images/side-image-09.jpg">
-                <h3>Running an SQL Injection Attack - Computerphile</h3>
-                <small>Computererphile</small>
-                <small>2,217,477 views</small>
+                <img src="images/side-image-09.jpg" alt="Side Images">
+                <p>Running an SQL Injection Attack - Computerphile<br>
+                    <span class="text-font">Computererphile<br>
+                    2,029,985 views</span>
+                <p>
             </aside>
+
             
-        </section>
+        </div>
 
         <footer class="foot">
-            <ul class="footleft">
-                <li><img class="logo-footer" src="images/icon.png" /></li>
+            <ul class="footleft d-block">
+                <li><img class="logo-footer" src="images/icon.png" alt="Logo foot" /></li>
                 <li><h2 class="youtube-footer">YouTube</h2></li>
             </ul>
             
 
-            <ul class="foot-mid">
+            <ul class="foot-mid d-block">
                 <li><select>
                     <option value="languages">Languages</option>
                     <option value="english">English</option>
@@ -202,7 +263,7 @@
                 </select></li>
             </ul>
 
-            <ul class="foot-right">
+            <ul class="foot-right d-block">
                 <li><button class="history" type="button">History</button></li>
                 <li><button class="help" type="button">Help</button></li>
             </ul>
@@ -225,9 +286,9 @@
             
 
         </footer>
-    </main>
-
-
     </section>
+
+
+</div>
 </body>
 </html>
