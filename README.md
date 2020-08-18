@@ -21,7 +21,7 @@ This is a youtube video player homepage. It has as a navigation bar. In the main
 
 ## Getting Started
 
-**Log on to the Github and clone the repository to our local machine.**
+**Log on to the Github and clone the repository to your local machine.**
 
 ## Authors
 
